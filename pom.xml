@@ -18,6 +18,19 @@
 					<release>17</release>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>3.1.1</version>
+				<configuration>
+					<mainClass>io.github.defective4.rpi.badapple.BadApple</mainClass>
+					<arguments>
+						<argument>play</argument>
+						<argument>scan.bin</argument>
+						<argument>15</argument>
+					</arguments>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 	<dependencies>
