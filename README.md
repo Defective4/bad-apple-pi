@@ -15,7 +15,7 @@ Software:
 ### Running
 1. Clone the repository
 ```bash
-git clone github.com/defective4/bad-apple-pi.git
+git clone https://github.com/defective4/bad-apple-pi.git
 ```
 2. Run the code
 ```bash
