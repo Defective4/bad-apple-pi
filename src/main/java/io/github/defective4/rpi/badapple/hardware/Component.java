@@ -6,9 +6,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public abstract class Component {
-    /**
-     * Logger instance
-     */
+    
     private static final Logger logger = Logger.getLogger("Pi4J Components");
 
     static {
